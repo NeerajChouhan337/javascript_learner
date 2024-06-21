@@ -1,0 +1,16 @@
+const accountId = 14453;
+let email = "neeraj@gmail.com";
+var password = "1234";
+accounttype = "personal";
+
+// accountId = 2;
+email = "neerajchouhan@gmail.com";
+password = 212121;
+accounttype = "public";
+
+console.table([accountId,email,password,accounttype]);
+
+/*
+prefer not to use var 
+becasue scope and functional problem
+*/
